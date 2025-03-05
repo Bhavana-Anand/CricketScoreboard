@@ -1,0 +1,76 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Heading */
+  h1 {
+    color: #333;
+    margin-top: 20px;
+    font-size: 28px;
+  }
+  
+  /* Container to center align elements */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  /* Button Container */
+  .button-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    width: 200px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  /* Flexbox to align buttons in pairs */
+  .button-pair {
+    display: flex;
+    gap: 10px;
+  }
+  
